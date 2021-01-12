@@ -38,5 +38,30 @@
            "img2":"images/img2.png",
            "img3":"images/img3.png"
        }
+   ],
+   "collections":[
+       {
+        "category":"COLLECTION #10",   
+        "imgMain":"images/imgBehind.png",
+        "imgRound":"images/imgRound.png",
+        "title":"Off-the-grid experriences",
+        "author":"By Melanie S."
+       },
+       {
+        "category":"COLLECTION #1",   
+        "imgMain":"images/imgBehind1.png",
+        "imgRound":"images/imgRound1.png",
+        "title":"Shapes, triangle & fashion",
+        "author":"By Saraha"  
+       },
+       {
+        "category":"COLLECTION #123",   
+        "imgMain":"images/imgBehind2.png",
+        "imgRound":"images/imgRound2.png",
+        "title":"In-depth architecture",
+        "author":"By Benhour"  
+       }
+
+       
    ]
 }
