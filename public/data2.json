@@ -1,0 +1,67 @@
+{
+    "travel":[{
+        "image":"images/travelImg.png",
+        "category":"travel",
+        "title":"Surfing in Maldives",
+        "description":"It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside."
+        }
+    ],
+   "services": [
+        {
+           "icon":"icon/delivery.svg",
+            "title":"ONE-TIME DELIVERY",
+            "description":"This is real quality services offered to you at home"
+        },
+        {
+            "icon":"icon/parcels.svg",
+            "title":"PARCELS",
+            "description":"This is real quality services offered to you at home"
+        },
+        {
+            "icon":"icon/quality.svg",
+            "title":"QUALITY CHECK",
+            "description":"This is real quality services offered to you at home"
+        },
+        {
+            "icon":"icon/phone.svg",
+            "title":"CUSTOMER SERVICE",
+            "description":"This is real quality services offered to you at home"
+        }
+   ],
+   "outdoor": [
+       {
+           "imgBig":"images/imgBig.png",
+           "title":"OUTDOOR EXPERIENCE",
+           "category":"LEISURE",
+           "description":"It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.",
+           "img1":"images/img1.png",
+           "img2":"images/img2.png",
+           "img3":"images/img3.png"
+       }
+   ],
+   "collections":[
+       {
+        "category":"COLLECTION #10",   
+        "imgMain":"images/imgBehind.png",
+        "imgRound":"images/imgRound.png",
+        "title":"Off-the-grid experriences",
+        "author":"By Melanie S."
+       },
+       {
+        "category":"COLLECTION #1",   
+        "imgMain":"images/imgBehind1.png",
+        "imgRound":"images/imgRound1.png",
+        "title":"Shapes, triangle & fashion",
+        "author":"By Saraha"  
+       },
+       {
+        "category":"COLLECTION #123",   
+        "imgMain":"images/imgBehind2.png",
+        "imgRound":"images/imgRound2.png",
+        "title":"In-depth architecture",
+        "author":"By Benhour"  
+       }
+
+       
+   ]
+}
