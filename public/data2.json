@@ -61,8 +61,33 @@
         "title":"In-depth architecture",
         "author":"By Benhour"  
        }
+    
 
        
-   ]
-
+   ],
+    "latestContent":[
+        {
+           "imgLatest":"images/forrest.png",
+           "title":"Nature",
+           "description":"Nature as it should be - untouched and wild" 
+        },
+        {
+            "imgLatest":"images/lion.png",
+            "title":"Animals",
+            "description":"Part of nature - not a consumer of nature" 
+        },
+        {   "imgLatest":"images/tech.png",
+            "title":"Technology",
+            "description":"Newest tech bring to to the next level" 
+        },
+        {   "imgLatest":"images/explore.png",
+            "title":"Explore",
+            "description":"Beautiful natural constructions to amaze you" 
+        },
+        {
+            "imgLatest":"images/africa.png",
+            "title":"Africa",
+            "description":"The most beautiful continent on the planet" 
+        }
+    ]
 }
