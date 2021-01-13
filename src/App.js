@@ -1,6 +1,7 @@
 import { useEffect, useState} from "react";
 import './App.css';
 import Collections from "./components/collections";
+import LatestContent from "./components/latestContent";
 import Latest from "./components/latestNews";
 import Outdoor from "./components/outdoor";
 import Places from "./components/placesToSee";
@@ -39,7 +40,9 @@ function App() {
 
         <Places/>
         <Latest>
-            
+            { components.latestContent && components.latestContent.map(content => {
+                return  <LatestContent key={content.imgLatest} imgLatest={content.imgLatest} title={content.title} description={content.description}/>
+            })}
         </Latest>
 
 
