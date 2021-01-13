@@ -1,7 +1,9 @@
 import { useEffect, useState} from "react";
 import './App.css';
 import Collections from "./components/collections";
+import Latest from "./components/latestNews";
 import Outdoor from "./components/outdoor";
+import Places from "./components/placesToSee";
 import Services from "./components/serviceContainer";
 import Travel from "./components/travel";
 
@@ -34,6 +36,11 @@ function App() {
         { components.collections && components.collections.map(collection => {
             return  <Collections key={collection.imgMain} category={collection.category} imgMain={collection.imgMain} imgRound={collection.imgRound} title={collection.title} author={collection.author}/>
         })}
+
+        <Places/>
+        <Latest>
+            
+        </Latest>
 
 
       
