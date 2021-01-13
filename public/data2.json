@@ -89,5 +89,16 @@
             "title":"Africa",
             "description":"The most beautiful continent on the planet" 
         }
+    ],
+    "FAndF":[
+        {
+            "imgFit":"images/food.png",
+            "title":"Food and life style",
+            "description":"Food is more than nutrition" 
+        },
+        {   "imgFit":"images/fashion.png",
+            "title":"Fashion",
+            "description":"Trendy and pushing the boundaries" 
+        }
     ]
 }

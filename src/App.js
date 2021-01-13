@@ -1,6 +1,7 @@
 import { useEffect, useState} from "react";
 import './App.css';
 import Collections from "./components/collections";
+import FAndF from "./components/foodAndFashion";
 import LatestContent from "./components/latestContent";
 import Latest from "./components/latestNews";
 import Outdoor from "./components/outdoor";
@@ -44,6 +45,10 @@ function App() {
                 return  <LatestContent key={content.imgLatest} imgLatest={content.imgLatest} title={content.title} description={content.description}/>
             })}
         </Latest>
+
+        { components.FAndF && components.FAndF.map(content => {
+                return  <FAndF key={content.imgFit} imgFit={content.imgFit} title={content.title} description={content.description}/>
+        })}
 
 
       
