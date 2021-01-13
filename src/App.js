@@ -1,5 +1,6 @@
 import { useEffect, useState} from "react";
 import './App.css';
+import Collections from "./components/collections";
 import Outdoor from "./components/outdoor";
 import Services from "./components/serviceContainer";
 import Travel from "./components/travel";
@@ -29,6 +30,11 @@ function App() {
         { components.services && components.services.map(service => {
             return  <Services key={service.icon} icon={service.icon} title={service.title} description={service.description}/>
         })}
+
+        { components.collections && components.collections.map(collection => {
+            return  <Collections key={collection.imgMain} category={collection.category} imgMain={collection.imgMain} imgRound={collection.imgRound} title={collection.title} author={collection.author}/>
+        })}
+
 
       
       </div>
