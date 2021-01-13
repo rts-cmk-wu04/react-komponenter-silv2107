@@ -1,0 +1,20 @@
+[
+    {
+        "services":{
+            "icons":{
+                "delivery":"icon/delivery.svg",
+                "parcels":"icon/parcels.svg",
+                "quality":"icon/quality.svg",
+                "phone":"icon/phone.svg"
+            },
+            "title":{
+                "delivery":"ONE-TIME DELIVERY",
+                "parcels":"PARCELS",
+                "quality":"QUALITY CHECK",
+                "phone":"CUSTOMER SERVICE"
+            },
+            "description":"This is real quality services offered to you at home"
+            
+        }
+    }
+]
