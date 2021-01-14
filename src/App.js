@@ -5,6 +5,8 @@ import DAndE from "./components/DAndE";
 import FAndF from "./components/foodAndFashion";
 import LatestContent from "./components/latestContent";
 import Latest from "./components/latestNews";
+import NewsContent from "./components/newsContent";
+import NewsDigest from "./components/newsDigest";
 import Outdoor from "./components/outdoor";
 import Places from "./components/placesToSee";
 import Services from "./components/serviceContainer";
@@ -63,8 +65,11 @@ function App() {
             return <DAndE key={content.iconTheme} iconTheme={content.iconTheme} title={content.title}/>
         })}
 
-
-      
+       <NewsDigest>
+            { components.newsContent && components.newsContent.map(content => {
+                return <NewsContent key={content.number} number={content.number} title={content.title}/>
+            })}
+        </NewsDigest> 
       </div>
   );
 }
