@@ -150,5 +150,18 @@
             "number": "4",
             "title": "Development"
         }
+    ],
+    "readMore":[
+        {
+            "theBackgroundImage":"images/backgroundWhite.png",
+            "theColor":"red",
+            "theBorder":"1px black solid"
+            
+        },
+        {
+            "theBackgroundImage":"images/backgroundImage.png",
+            "theColor":"green",
+            "theBorder":"1px grey solid"
+        }
     ]
 }
