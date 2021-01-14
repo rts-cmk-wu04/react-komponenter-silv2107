@@ -9,6 +9,7 @@ import Places from "./components/placesToSee";
 import Services from "./components/serviceContainer";
 import Theme from "./components/theme";
 import Travel from "./components/travel";
+import Virtual from "./components/virtual";
 
 function App() {
     var [components, setComponents] = useState({})
@@ -54,6 +55,8 @@ function App() {
         { components.theme && components.theme.map(content => {
             return <Theme key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description}/>
         })}
+
+        <Virtual/>
 
 
       
