@@ -100,5 +100,27 @@
             "title":"Fashion",
             "description":"Trendy and pushing the boundaries" 
         }
+    ],
+    "theme":[
+        {
+            "imgBackground":"images/architecture.png",
+            "title":"ARCHITECTURE",
+            "description":"Food is more than nutrition" 
+        },
+        {
+            "imgBackground":"images/leisure.png",
+            "title":"TRAVEL AND LEISURE",
+            "description":"Food is more than nutrition" 
+        },
+        {
+            "imgBackground":"images/greenery.png",
+            "title":"BEACHES",
+            "description":"Food is more than nutrition" 
+        },
+        {
+            "imgBackground":"images/beaches.png",
+            "title":"GREENERY",
+            "description":"Food is more than nutrition" 
+        }
     ]
 }

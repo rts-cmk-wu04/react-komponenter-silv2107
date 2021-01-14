@@ -7,6 +7,7 @@ import Latest from "./components/latestNews";
 import Outdoor from "./components/outdoor";
 import Places from "./components/placesToSee";
 import Services from "./components/serviceContainer";
+import Theme from "./components/theme";
 import Travel from "./components/travel";
 
 function App() {
@@ -48,6 +49,10 @@ function App() {
 
         { components.FAndF && components.FAndF.map(content => {
                 return  <FAndF key={content.imgFit} imgFit={content.imgFit} title={content.title} description={content.description}/>
+        })}
+
+        { components.theme && components.theme.map(content => {
+            return <Theme key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description}/>
         })}
 
 
