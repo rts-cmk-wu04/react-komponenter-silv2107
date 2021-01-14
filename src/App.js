@@ -1,6 +1,7 @@
 import { useEffect, useState} from "react";
 import './App.css';
 import Collections from "./components/collections";
+import DAndE from "./components/DAndE";
 import FAndF from "./components/foodAndFashion";
 import LatestContent from "./components/latestContent";
 import Latest from "./components/latestNews";
@@ -57,6 +58,10 @@ function App() {
         })}
 
         <Virtual/>
+
+        { components.DAndE && components.DAndE.map(content => {
+            return <DAndE key={content.iconTheme} iconTheme={content.iconTheme} title={content.title}/>
+        })}
 
 
       
