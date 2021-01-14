@@ -132,5 +132,23 @@
             "iconTheme":"icon/education.svg",
             "title":"Education"
         }
+    ],
+    "newsContent":[
+        {
+            "number": "1",
+            "title": "Technology"
+        },
+        {
+            "number": "2",
+            "title": "Nature"
+        },
+        {
+            "number": "3",
+            "title": "Design"
+        },
+        {
+            "number": "4",
+            "title": "Development"
+        }
     ]
 }
