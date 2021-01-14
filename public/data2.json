@@ -122,5 +122,15 @@
             "title":"GREENERY",
             "description":"Food is more than nutrition" 
         }
+    ],
+    "DAndE": [
+        {
+            "iconTheme":"icon/design.svg",
+            "title":"Design"
+        },
+        {
+            "iconTheme":"icon/education.svg",
+            "title":"Education"
+        }
     ]
 }
