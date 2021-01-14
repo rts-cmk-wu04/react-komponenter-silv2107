@@ -9,6 +9,7 @@ import NewsContent from "./components/newsContent";
 import NewsDigest from "./components/newsDigest";
 import Outdoor from "./components/outdoor";
 import Places from "./components/placesToSee";
+import ReadMore from "./components/readMore";
 import Services from "./components/serviceContainer";
 import Theme from "./components/theme";
 import Travel from "./components/travel";
@@ -70,6 +71,10 @@ function App() {
                 return <NewsContent key={content.number} number={content.number} title={content.title}/>
             })}
         </NewsDigest> 
+        
+        { components.readMore && components.readMore.map(content => {
+                return <ReadMore key={content.theBackgroundImage} theBackgroundImage={content.theBackgroundImage} theColor={content.theColor} theBorder={content.theBorder}/>
+            })}
       </div>
   );
 }
