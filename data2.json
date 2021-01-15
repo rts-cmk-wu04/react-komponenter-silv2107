@@ -178,15 +178,13 @@
     ],
     "readMore":[
         {
-            "theBackgroundImage":"images/backgroundWhite.png",
-            "theColor":"red",
-            "theBorder":"1px black solid"
+            "theBackgroundImage":"images/backgroundWhite.png"
+           
             
         },
         {
-            "theBackgroundImage":"images/backgroundImage.png",
-            "theColor":"green",
-            "theBorder":"1px grey solid"
+            "theBackgroundImage":"images/backgroundImage.png"
+            
         }
     ]
 }
