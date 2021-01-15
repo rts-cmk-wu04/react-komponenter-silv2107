@@ -1,0 +1,56 @@
+.places{
+    position: relative;
+    color: white;
+}
+.places__background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.places__logo{
+    position: absolute;
+    top:30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.places__title{
+    position: absolute;
+    top:10px;
+    left: 55px;
+    z-index: 1;
+}
+.places__heart{
+    position: absolute;
+    top:30px;
+    left: 1055px;
+    z-index: 1;
+}
+
+.places__secondTitle{
+    position: absolute;
+    width: 250px;
+    top:330px;
+    left: 100px;
+    z-index: 1;
+}
+.places__description{
+    position: absolute;
+    width: 250px;
+    top:430px;
+    left: 100px;
+    z-index: 1;
+}
+
+.places__symbols{
+    position: absolute;
+    color: black;
+    width: 250px;
+    top:530px;
+    left: 550px;
+    z-index: 1;
+}

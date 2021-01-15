@@ -57,20 +57,29 @@ function App() {
                 </article>
             </section>
 
-        <Places/>
-        <Latest>
-            { components.latestContent && components.latestContent.map(content => {
-                return  <LatestContent key={content.imgLatest} imgLatest={content.imgLatest} title={content.title} description={content.description}/>
-            })}
-        </Latest>
+        <section className="secondPage">
+            <article className="secondPage__places">
+                <Places/>
+            </article>
+            <article className="secondPage__latest">
+                <Latest>
+                    { components.latestContent && components.latestContent.map(content => {
+                        return  <LatestContent key={content.imgLatest} imgLatest={content.imgLatest} title={content.title} description={content.description}/>
+                    })}
+                </Latest>
+            </article>
+            <article className="secondPage__FAndF">
+                { components.FAndF && components.FAndF.map(content => {
+                        return  <FAndF key={content.imgFit} imgFit={content.imgFit} title={content.title} description={content.description}/>
+                })}
+            </article>
 
-        { components.FAndF && components.FAndF.map(content => {
-                return  <FAndF key={content.imgFit} imgFit={content.imgFit} title={content.title} description={content.description}/>
-        })}
-
-        { components.theme && components.theme.map(content => {
-            return <Theme key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description}/>
-        })}
+            <article className="secondPage__theme">    
+                { components.theme && components.theme.map(content => {
+                    return <Theme key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description}/>
+                })}
+            </article>
+        </section>
 
         <Virtual/>
 
