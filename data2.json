@@ -76,49 +76,67 @@
         {
            "imgLatest":"images/forrest.png",
            "title":"Nature",
-           "description":"Nature as it should be - untouched and wild" 
+           "description":"Nature as it should be - untouched and wild",
+           "colorTitle":"#40BE65" 
         },
         {
             "imgLatest":"images/lion.png",
             "title":"Animals",
-            "description":"Part of nature - not a consumer of nature" 
+            "description":"Part of nature - not a consumer of nature",
+            "colorTitle":"#0072CA" 
+ 
         },
         {   "imgLatest":"images/tech.png",
             "title":"Technology",
-            "description":"Newest tech bring to to the next level" 
+            "description":"Newest tech bring to to the next level",
+            "colorTitle":"#D9A34A" 
+
         },
         {   "imgLatest":"images/explore.png",
             "title":"Explore",
-            "description":"Beautiful natural constructions to amaze you" 
+            "description":"Beautiful natural constructions to amaze you",
+            "colorTitle":"#FF4967" 
+ 
         },
         {
             "imgLatest":"images/africa.png",
             "title":"Africa",
-            "description":"The most beautiful continent on the planet" 
+            "description":"The most beautiful continent on the planet",
+            "colorTitle":"#0072CA" 
+ 
         }
     ],
     "FAndF":[
         {
             "imgFit":"images/food.png",
             "title":"Food and life style",
-            "description":"Food is more than nutrition" 
+            "description":"Food is more than nutrition",
+            "colorTitle":"#E44385" 
+ 
         },
         {   "imgFit":"images/fashion.png",
             "title":"Fashion",
-            "description":"Trendy and pushing the boundaries" 
+            "description":"Trendy and pushing the boundaries",
+            "colorTitle":"#0AACDC" 
+ 
         }
     ],
     "theme":[
         {
             "imgBackground":"images/architecture.png",
             "title":"ARCHITECTURE",
-            "description":"Food is more than nutrition" 
+            "description":"Food is more than nutrition",
+            "colorTitle":"#FFD430" 
         },
         {
             "imgBackground":"images/leisure.png",
             "title":"TRAVEL AND LEISURE",
-            "description":"Food is more than nutrition" 
-        },
+            "description":"Food is more than nutrition",
+            "colorTitle":"#D0E2FF" 
+            
+        }    
+    ],
+    "theme2":[
         {
             "imgBackground":"images/greenery.png",
             "title":"BEACHES",
