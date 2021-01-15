@@ -1,7 +1,7 @@
 {
     "travel":[{
         "image":"images/travelImg.png",
-        "category":"travel",
+        "category":"TRAVEL",
         "title":"Surfing in Maldives",
         "description":"It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside."
         }
@@ -10,22 +10,29 @@
         {
            "icon":"icon/delivery.svg",
             "title":"ONE-TIME DELIVERY",
-            "description":"This is real quality services offered to you at home"
+            "description":"This is real quality services offered to you at home",
+            "theBackground":"#005AEE"
         },
         {
             "icon":"icon/parcels.svg",
             "title":"PARCELS",
-            "description":"This is real quality services offered to you at home"
+            "description":"This is real quality services offered to you at home",
+            "theBackground":"#FFA767"
+
         },
         {
             "icon":"icon/quality.svg",
             "title":"QUALITY CHECK",
-            "description":"This is real quality services offered to you at home"
+            "description":"This is real quality services offered to you at home",
+            "theBackground":"#0AACDC"
+
         },
         {
             "icon":"icon/phone.svg",
             "title":"CUSTOMER SERVICE",
-            "description":"This is real quality services offered to you at home"
+            "description":"This is real quality services offered to you at home",
+            "theBackground":"#597AEF"
+
         }
    ],
    "outdoor": [

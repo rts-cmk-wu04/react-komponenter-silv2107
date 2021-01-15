@@ -30,20 +30,32 @@ function App() {
    
     return (
       <div className="App">
-        { components.travel && components.travel.map(trip => {
-            return  <Travel key={trip.image} image={trip.image} category={trip.category} title={trip.title} description={trip.description}/>
-        })}
-        { components.outdoor && components.outdoor.map(activity => {
-            return  <Outdoor key={activity.imgBig} imgBig={activity.imgBig} title={activity.title} category={activity.category} description={activity.description} img1={activity.img1} img2={activity.img2} img3={activity.img3}/>
-        })}
+          <section className="firstPage">
+              <article className="firstPage__travel">
+                    { components.travel && components.travel.map(trip => {
+                        return  <Travel key={trip.image} image={trip.image} category={trip.category} title={trip.title} description={trip.description}/>
+                    })}
+                </article>
 
-        { components.services && components.services.map(service => {
-            return  <Services key={service.icon} icon={service.icon} title={service.title} description={service.description}/>
-        })}
+                <article className="firstPage__outdoor">
+                    { components.outdoor && components.outdoor.map(activity => {
+                        return  <Outdoor key={activity.imgBig} imgBig={activity.imgBig} title={activity.title} category={activity.category} description={activity.description} img1={activity.img1} img2={activity.img2} img3={activity.img3}/>
+                    })}
+                </article>
 
-        { components.collections && components.collections.map(collection => {
-            return  <Collections key={collection.imgMain} category={collection.category} imgMain={collection.imgMain} imgRound={collection.imgRound} title={collection.title} author={collection.author}/>
-        })}
+                <article className="firstPage__services">
+                    { components.services && components.services.map(service => {
+                        return  <Services key={service.icon} icon={service.icon} title={service.title} description={service.description} theBackground={service.theBackground}/>
+                    })}
+                </article>
+
+            
+                <article className="firstPage__collections">
+                    { components.collections && components.collections.map(collection => {
+                        return  <Collections key={collection.imgMain} category={collection.category} imgMain={collection.imgMain} imgRound={collection.imgRound} title={collection.title} author={collection.author}/>
+                    })}
+                </article>
+            </section>
 
         <Places/>
         <Latest>

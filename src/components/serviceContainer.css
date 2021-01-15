@@ -1,0 +1,8 @@
+.serviceContainer{
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.serviceContainer img{
+    margin-left: 70%;
+}

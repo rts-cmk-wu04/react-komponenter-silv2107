@@ -1,0 +1,24 @@
+.travel{
+    background-color:white ;
+    border-radius: 10px;
+    /* border: red 1px solid; */
+}
+
+
+
+.travel_img{
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.travel__category{
+    padding: 0 5% 0 5%;
+}
+
+.travel__title{
+    padding: 0 5% 5% 5%;
+}
+
+.travel__text{
+    padding: 0 5% 5% 5%;
+}

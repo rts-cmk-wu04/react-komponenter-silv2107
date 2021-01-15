@@ -1,0 +1,44 @@
+.outdoor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30% 30% 30%;
+    padding: 14px;
+    margin-right: 20px;
+    height:591px;
+    background-color: white;
+    border-radius:10px ;
+}
+
+.outdoor__image{
+    padding-top: 20px;
+    height: 500px;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.outdoor__title{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.outdoor__leisure{
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #005AEE;
+    color: white;
+    height: 30px;
+    width: 80px;
+}
+
+.outdoor__description{
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.outdoor__icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:5px;
+    grid-area: 4 / 2 / 5 / 3;
+}
