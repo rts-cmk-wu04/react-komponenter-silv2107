@@ -12,6 +12,7 @@ import Places from "./components/placesToSee";
 import ReadMore from "./components/readMore";
 import Services from "./components/serviceContainer";
 import Theme from "./components/theme";
+import Theme2 from "./components/theme2";
 import Travel from "./components/travel";
 import Virtual from "./components/virtual";
 
@@ -64,38 +65,54 @@ function App() {
             <article className="secondPage__latest">
                 <Latest>
                     { components.latestContent && components.latestContent.map(content => {
-                        return  <LatestContent key={content.imgLatest} imgLatest={content.imgLatest} title={content.title} description={content.description}/>
+                        return  <LatestContent key={content.imgLatest} imgLatest={content.imgLatest} title={content.title} description={content.description} colorTitle={content.colorTitle}/>
                     })}
                 </Latest>
             </article>
             <article className="secondPage__FAndF">
                 { components.FAndF && components.FAndF.map(content => {
-                        return  <FAndF key={content.imgFit} imgFit={content.imgFit} title={content.title} description={content.description}/>
+                        return  <FAndF key={content.imgFit} imgFit={content.imgFit} title={content.title} description={content.description} colorTitle={content.colorTitle}/>
                 })}
             </article>
 
             <article className="secondPage__theme">    
                 { components.theme && components.theme.map(content => {
-                    return <Theme key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description}/>
+                    return <Theme key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description} colorTitle={content.colorTitle}/>
                 })}
             </article>
         </section>
-
-        <Virtual/>
-
-        { components.DAndE && components.DAndE.map(content => {
-            return <DAndE key={content.iconTheme} iconTheme={content.iconTheme} title={content.title}/>
-        })}
-
-       <NewsDigest>
-            { components.newsContent && components.newsContent.map(content => {
-                return <NewsContent key={content.number} number={content.number} title={content.title}/>
-            })}
-        </NewsDigest> 
         
-        { components.readMore && components.readMore.map(content => {
-                return <ReadMore key={content.theBackgroundImage} theBackgroundImage={content.theBackgroundImage} theColor={content.theColor} theBorder={content.theBorder}/>
-            })}
+        <section className="thirdPage">
+            <article className="thirdPage__theme2">    
+                    { components.theme2 && components.theme2.map(content => {
+                        return <Theme2 key={content.imgBackground} imgBackground={content.imgBackground} title={content.title} description={content.description} colorTitle={content.colorTitle}/>
+                    })}
+            </article>
+            
+            <article className="thirdPage__virtual">
+                <Virtual/>
+            </article>
+            
+            <article className="thirdPage__DAndE">
+                { components.DAndE && components.DAndE.map(content => {
+                    return <DAndE key={content.iconTheme} iconTheme={content.iconTheme} title={content.title}/>
+                })}
+            </article>
+
+            <article className="thirdPage__newsDigest">
+                <NewsDigest>
+                    { components.newsContent && components.newsContent.map(content => {
+                        return <NewsContent key={content.number} number={content.number} title={content.title}/>
+                    })}
+                </NewsDigest> 
+            </article>
+            
+            <article className="thirdPage__readMore">
+                { components.readMore && components.readMore.map(content => {
+                        return <ReadMore key={content.theBackgroundImage} theBackgroundImage={content.theBackgroundImage}/>
+                    })}
+            </article>
+        </section>
       </div>
   );
 }

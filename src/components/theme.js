@@ -1,11 +1,13 @@
 import React from "react";
-
-function Theme({imgBackground, title, description}){
+import "./theme.css";
+function Theme({imgBackground, title, description,colorTitle}){
     return (
-        <article>
-           <img src={imgBackground} alt="background"/>
-           <h4>{title}</h4>
-           <p>{description}</p>
+        <article className="theme">
+           <img className="theme__img" src={imgBackground} alt="background"/>
+           <section className="theme__content">
+            <h4 style={{color:`${colorTitle}`}}>{title}</h4>
+            <p className="theme__description">{description}</p>
+           </section>
         </article>
         )
 }

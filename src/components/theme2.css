@@ -1,0 +1,23 @@
+.theme2{
+    position: relative;
+}
+
+.theme2__img{
+    position: relativ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.theme2__content{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.theme2__description{
+    color: white;
+}

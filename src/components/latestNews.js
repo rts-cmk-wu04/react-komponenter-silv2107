@@ -1,11 +1,12 @@
 import React from "react";
+import "./latestNews.css";
 
 function Latest({children}){
     return (
-        <section>
-            <h4>Latest News</h4>
+        <section className="latestNews">
+            <h4 className="latestNews__title">Latest News</h4>
             {children}
-            <p>More news</p>
+            <p className="latestNews__text">More news</p>
         </section>
 
     )
