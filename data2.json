@@ -151,11 +151,14 @@
     "DAndE": [
         {
             "iconTheme":"icon/design.svg",
-            "title":"Design"
+            "title":"Design",
+            "theBackground":"#53BBB3"
         },
         {
             "iconTheme":"icon/education.svg",
-            "title":"Education"
+            "title":"Education",
+            "theBackground":"#358ED7"
+
         }
     ],
     "newsContent":[
