@@ -191,12 +191,15 @@
     ],
     "readMore":[
         {
-            "theBackgroundImage":"images/backgroundWhite.png"
+            "theBackgroundImage":"images/backgroundWhite.png",
+            "theColor":"#358ED7"
            
             
         },
         {
-            "theBackgroundImage":"images/backgroundImage.png"
+            "theBackgroundImage":"images/backgroundImage.png",
+            "theColor":"black"
+
             
         }
     ]

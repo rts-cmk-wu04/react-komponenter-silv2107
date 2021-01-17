@@ -1,5 +1,6 @@
 .readContainer{
     position: relative;
+    margin-top: 5px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
 
 .readContainer__background{
     position: relative;
+    height: 35em;
 }
 
 .readContainer__logo{
@@ -17,22 +19,31 @@
 }
 
 .readContainer__title{
+    margin: 0;
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 80px;
 }
 
 .readContainer__description{
-    width: 50%;
+    font-size: 1.2em;
+    color: #7B8591;
+    width: 80%;
     position: absolute;
-    top: 130px;
-    left: 80px;
+    top: 100px;
+    left: 50px;
 }
 
 .readContainer__button{
+    background-color: #ffffff00;
+    border: .2px rgba(128, 128, 128, 0.342) solid;
+    font-size: 1.2em;
+    width: 200px;
+    padding: 10px 25px;
+    border-radius: 30px;
     position: absolute;
-    top: 500px;
-    left: 80px;
+    top: 400px;
+    left: 50px;
 }
 
 

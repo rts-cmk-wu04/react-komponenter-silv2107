@@ -109,7 +109,7 @@ function App() {
             
             <article className="thirdPage__readMore">
                 { components.readMore && components.readMore.map(content => {
-                        return <ReadMore key={content.theBackgroundImage} theBackgroundImage={content.theBackgroundImage}/>
+                        return <ReadMore key={content.theBackgroundImage} theBackgroundImage={content.theBackgroundImage} theColor={content.theColor}/>
                     })}
             </article>
         </section>
