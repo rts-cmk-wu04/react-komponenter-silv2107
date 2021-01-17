@@ -151,29 +151,42 @@
     "DAndE": [
         {
             "iconTheme":"icon/design.svg",
-            "title":"Design"
+            "title":"Design",
+            "theBackground":"#53BBB3"
         },
         {
             "iconTheme":"icon/education.svg",
-            "title":"Education"
+            "title":"Education",
+            "theBackground":"#358ED7"
+
         }
     ],
     "newsContent":[
         {
             "number": "1",
-            "title": "Technology"
+            "title": "Technology",
+            "theColor": "#D9A34A"
+            
+
         },
         {
             "number": "2",
-            "title": "Nature"
+            "title": "Nature",
+            "theColor": "#007AC2"
+
         },
         {
             "number": "3",
-            "title": "Design"
+            "title": "Design",
+            "theColor": "#3CA773"
+
         },
         {
             "number": "4",
-            "title": "Development"
+            "title": "Development",
+            "theColor": "#53BBB3",
+            "theBorder":"none"
+
         }
     ],
     "readMore":[

@@ -1,5 +1,6 @@
 .theme2{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .theme2__img{
@@ -9,7 +10,7 @@
     right: 0;
     bottom: 0;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .theme2__content{

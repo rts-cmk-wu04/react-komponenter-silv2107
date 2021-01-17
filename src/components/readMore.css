@@ -1,0 +1,39 @@
+.readContainer{
+    position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 150px;     */
+}
+
+.readContainer__background{
+    position: relative;
+}
+
+.readContainer__logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;  
+}
+
+.readContainer__title{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.readContainer__description{
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+.readContainer__button{
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
+
+
+

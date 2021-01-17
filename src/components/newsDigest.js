@@ -4,7 +4,7 @@ import "./newsDigest.css";
 function NewsDigest({children}){
     return (
         <section className="newsDigest">
-            <h4>News Digest</h4>
+            <h4 className="newsDigest__news"> News Digest</h4>
             {children}
         </section>
 
